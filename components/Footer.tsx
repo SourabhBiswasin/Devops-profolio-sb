@@ -8,10 +8,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:jatin@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/SourabhBiswasin' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/sourabhbiswasdevops/' },
+    { icon: Mail, href: 'mailto:devopsourabhbiswas@gmail.com', label: 'Email' },
   ];
 
   const scrollToTop = () => {
@@ -40,8 +39,8 @@ export default function Footer() {
               </motion.div>
             </div>
             <div>
-              <div className="text-xl font-bold">Jatin Kumar</div>
-              <div className="text-sm text-slate-400">Full Stack Developer</div>
+              <div className="text-xl font-bold">Sourabh Biswas</div>
+              <div className="text-sm text-slate-400">Devops Engineer</div>
             </div>
           </motion.div>
 
@@ -61,7 +60,7 @@ export default function Footer() {
               >
                 <Heart className="w-4 h-4 text-red-500 fill-current" />
               </motion.span>
-              by Jatin Kumar
+              by Sourabh Biswas
             </p>
             <motion.button
               onClick={scrollToTop}
@@ -111,7 +110,6 @@ export default function Footer() {
           <div className="text-center text-sm text-slate-500">
             <p>
               Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
-              Deployed on Vercel.
             </p>
           </div>
         </motion.div>

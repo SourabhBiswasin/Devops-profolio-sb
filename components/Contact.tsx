@@ -30,14 +30,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "jatinkumar07911@gmail.com",
-      href: "mailto:jatinkumar07911@gmail.com",
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 9560510599",
-      href: "tel:+919560510599",
+      value: "devopsourabhbiswas@gmail.com",
+      href: "mailto:devopsourabhbiswas@gmail.com",
     },
     {
       icon: MapPin,
@@ -50,27 +44,15 @@ export default function Contact() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com",
+      href: "https://github.com/SourabhBiswasin",
       label: "GitHub",
       color: "hover:text-slate-900",
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/sourabhbiswasdevops/",
       label: "LinkedIn",
       color: "hover:text-blue-600",
-    },
-    {
-      icon: Twitter,
-      href: "https://twitter.com",
-      label: "Twitter",
-      color: "hover:text-blue-400",
-    },
-    {
-      icon: Instagram,
-      href: "https://instagram.com",
-      label: "Instagram",
-      color: "hover:text-pink-500",
     },
   ];
 
@@ -97,7 +79,7 @@ export default function Contact() {
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_email: "jatinkumar07911@gmail.com",
+          to_email: "devopsourabhbiswas@gmail.com",
         },
         "uPPR6GP9VTghg3ubq"
       );

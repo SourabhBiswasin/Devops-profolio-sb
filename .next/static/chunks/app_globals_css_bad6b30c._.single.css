@@ -188,7 +188,6 @@
     --color-purple-600: #9810fa;
     --color-purple-900: #59168b;
     --color-pink-400: #fb64b6;
-    --color-pink-500: #f6339a;
     --color-slate-50: #f8fafc;
     --color-slate-100: #f1f5f9;
     --color-slate-200: #e2e8f0;
@@ -286,7 +285,6 @@
       --color-purple-600: color(display-p3 .546729 .130167 .94439);
       --color-purple-900: color(display-p3 .321698 .107597 .524563);
       --color-pink-400: color(display-p3 .915485 .430491 .70271);
-      --color-pink-500: color(display-p3 .88894 .276457 .595049);
       --color-slate-50: color(display-p3 .974377 .979815 .986207);
       --color-slate-100: color(display-p3 .947345 .959969 .97483);
       --color-slate-200: color(display-p3 .890322 .909405 .939294);
@@ -336,7 +334,6 @@
       --color-purple-600: lab(43.0295% 75.21 -86.5669);
       --color-purple-900: lab(24.9401% 45.2703 -51.2728);
       --color-pink-400: lab(64.5597% 64.3615 -12.7988);
-      --color-pink-500: lab(56.9303% 76.8162 -8.07021);
       --color-slate-50: lab(98.1434% -.369519 -1.05966);
       --color-slate-100: lab(96.286% -.852436 -2.46847);
       --color-slate-200: lab(91.7353% -.998765 -4.76968);
@@ -2997,20 +2994,8 @@
   }
 
   @media (hover: hover) {
-    .hover\:text-blue-400:hover {
-      color: var(--color-blue-400);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:text-blue-600:hover {
       color: var(--color-blue-600);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-pink-500:hover {
-      color: var(--color-pink-500);
     }
   }
 

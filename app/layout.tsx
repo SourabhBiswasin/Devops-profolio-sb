@@ -6,27 +6,27 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jatin Kumar - Full Stack Developer",
+  title: "Sourabh Biswas - Devops Engineer",
   description:
-    "Portfolio of Jatin Kumar, a passionate full stack developer specializing in React, Node.js, and modern web technologies.",
+    "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
   keywords:
-    "Jatin Kumar, Full Stack Developer, React, Node.js, JavaScript, TypeScript, Web Development",
-  authors: [{ name: "Jatin Kumar" }],
-  creator: "Jatin Kumar",
+    "Sourabh Biswas, Devops Engineer, Terraform, AWS, Azure, Jenkins, Github Actions, Gitlab, Docker, Kubernetes, ArgoCD, EFK, Grafana, Promethus",
+  authors: [{ name: "Sourabh Biswas" }],
+  creator: "Sourabh Biswas",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://jatinkumar.dev",
-    title: "Jatin Kumar - Full Stack Developer",
+    url: "https://devopswithsourabh.gitbook.io/home/",
+    title: "Sourabh Biswas - Devops Engineer",
     description:
-      "Portfolio of Jatin Kumar, a passionate full stack developer specializing in React, Node.js, and modern web technologies.",
-    siteName: "Jatin Kumar Portfolio",
+      "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
+    siteName: "Sourabh Biswas Devops Engineer",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jatin Kumar - Full Stack Developer",
+    title: "Sourabh Biswas - Devops Engineer",
     description:
-      "Portfolio of Jatin Kumar, a passionate full stack developer specializing in React, Node.js, and modern web technologies.",
+      "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
     creator: "@jatinkumar",
   },
   robots: {

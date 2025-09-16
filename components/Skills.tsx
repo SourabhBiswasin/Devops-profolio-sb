@@ -296,51 +296,6 @@ export default function Skills() {
             </motion.div>
           ))}
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20 text-center"
-        >
-          <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">
-            Other Technologies & Tools
-          </h3>
-
-          <div className="flex flex-wrap justify-center gap-4">
-            {[
-              "Webpack",
-              "Jest",
-              "Cypress",
-              "Prisma",
-              "Socket.io",
-              "Sass",
-              "Material-UI",
-              "Framer Motion",
-              "Vercel",
-              "Netlify",
-              "Supabase",
-              "Stripe",
-            ].map((tech, index) => (
-              <motion.span
-                key={`${tech}-${index}`}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                viewport={{ once: true }}
-                whileHover={{
-                  scale: 1.1,
-                  backgroundColor: "rgb(59, 130, 246)",
-                  color: "white",
-                }}
-                className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 text-slate-700 dark:text-slate-300 rounded-full text-sm font-medium cursor-default transition-all duration-300"
-              >
-                {tech}
-              </motion.span>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );
