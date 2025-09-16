@@ -81,7 +81,7 @@ export default function Footer() {
           >
             {socialLinks.map((social, index) => (
               <motion.a
-                key={social.label}
+                key={`${social.label || social.href}-${index}`}
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"

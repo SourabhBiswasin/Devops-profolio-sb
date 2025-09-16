@@ -16,10 +16,9 @@ export default function Hero() {
   const [isHovering, setIsHovering] = useState(false);
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-    { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+    { icon: Github, href: "https://github.com/SourabhBiswasin", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/sourabhbiswasdevops/", label: "LinkedIn" },
+    { icon: Instagram, href: "https://www.instagram.com/sourabhbiswas_devops/", label: "Instagram" },
   ];
 
   const scrollToContact = () => {
@@ -58,7 +57,7 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 dark:text-white"
               >
-                Jatin Kumar
+                Sourabh Biswas
               </motion.h1>
 
               <motion.div
@@ -70,10 +69,10 @@ export default function Hero() {
                 <Typewriter
                   options={{
                     strings: [
-                      "Full Stack Developer",
-                      "MERN Stack",
-                      "UI/UX Enthusiast",
-                      "Problem Solver",
+                      "DevOps Engineer",
+                      "Cloud Solution Architect",
+                      "CI/CD, Automation & IaC Specialist",
+                      "SRE & Monitoring Specialist",
                     ],
                     autoStart: true,
                     loop: true,
@@ -90,9 +89,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed"
             >
-              Passionate about creating beautiful, functional, and user-friendly
-              applications. I specialize in modern web technologies and love
-              turning ideas into reality through code.
+              A passionate DevOps Engineer on a mission to automate and scale cloud infrastructures efficiently with a love for technology and a knack for problem-solving. I thrive on challenges and enjoy collaborating with teams to deliver innovative solutions that drive success. Let's connect and explore the world of DevOps together!. Based in Delhi NCR, India.
             </motion.p>
 
             <motion.div
@@ -116,7 +113,7 @@ export default function Hero() {
                 />
                 <span className="relative flex items-center justify-center gap-2">
                   <Download className="w-5 h-5" />
-                  Download Resume
+                  <a href="/Jatin_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-200">Resume</a>
                 </span>
               </motion.button>
 
@@ -140,7 +137,7 @@ export default function Hero() {
               className="flex items-center gap-6"
             >
               <span className="text-slate-600 dark:text-slate-400 font-medium">
-                Follow me:
+                Connect with me:
               </span>
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => (
@@ -172,13 +169,13 @@ export default function Hero() {
             <div className="relative">
               <motion.div
                 className="w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden bg-gradient-to-br from-blue-400 to-purple-600 p-1"
-                animate={{ rotate: 360 }}
+                animate={{ rotate: 0 }}
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               >
                 <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-slate-900">
                   <img
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
-                    alt="Jatin Kumar"
+                    src="/SB PROFILE.jpg"
+                    alt="Sourabh Biswas"
                     className="w-full h-full object-cover"
                   />
                 </div>

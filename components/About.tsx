@@ -17,13 +17,13 @@ export default function About() {
       icon: Award,
       title: "Quality Focused",
       description:
-        "I believe in writing clean, maintainable code that stands the test of time.",
+        "Dedicated to delivering high-quality solutions with attention to detail and a commitment to excellence.",
     },
     {
       icon: Lightbulb,
       title: "Problem Solver",
       description:
-        "I love tackling complex challenges and finding elegant solutions.",
+        "Skilled at tackling complex challenges and delivering innovative, effective solutions.",
     },
     {
       icon: Users,
@@ -46,10 +46,12 @@ export default function About() {
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white mb-6">
             About Me
           </h2>
-          <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            Passionate developer with a love for creating amazing digital
-            experiences
-          </p>
+            <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+            Certified DevOps Engineer | 4+ years of experience | 
+            Cloud Specialist using AWS & Azure | 
+            Specializing in DevOps tools like Terraform (IaC), Jenkins, GitLab, GitHub Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Prometheus. 
+            SRE & Monitoring Specialist
+            </p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
@@ -60,58 +62,6 @@ export default function About() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <div className="prose prose-lg dark:prose-invert">
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                Hello! I'm Jatin Kumar, a passionate full-stack developer with
-                over 1 years of experience in creating web applications that
-                make a difference. My journey in tech started with curiosity and
-                has evolved into a deep love for problem-solving through code.
-              </p>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                I specialize in modern JavaScript frameworks like React and
-                Node.js, but I'm always eager to learn new technologies. When
-                I'm not coding, you'll find me exploring new tech trends,
-                contributing to open source, or sharing knowledge with the
-                developer community.
-              </p>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                My goal is to create applications that not only function
-                flawlessly but also provide exceptional user experiences. I
-                believe that great software is built on solid foundations of
-                clean code, thoughtful design, and continuous learning.
-              </p>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="grid grid-cols-2 gap-6"
-          >
-            {stats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-              >
-                <div className="flex flex-col items-center text-center space-y-3">
-                  <div className="p-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white">
-                    <stat.icon className="w-6 h-6" />
-                  </div>
-                  <div className="text-2xl font-bold text-slate-900 dark:text-white">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-slate-600 dark:text-slate-400">
-                    {stat.label}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
           </motion.div>
         </div>
 

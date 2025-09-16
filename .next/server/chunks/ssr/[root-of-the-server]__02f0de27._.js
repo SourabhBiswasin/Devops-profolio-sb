@@ -106,12 +106,6 @@ const metadata = {
         description: "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
         siteName: "Sourabh Biswas Devops Engineer"
     },
-    twitter: {
-        card: "summary_large_image",
-        title: "Sourabh Biswas - Devops Engineer",
-        description: "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
-        creator: "@jatinkumar"
-    },
     robots: {
         index: true,
         follow: true,
@@ -134,17 +128,17 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 53,
+                lineNumber: 46,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 52,
+            lineNumber: 45,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 51,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 }
