@@ -22,13 +22,6 @@ export const metadata: Metadata = {
       "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
     siteName: "Sourabh Biswas Devops Engineer",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Sourabh Biswas - Devops Engineer",
-    description:
-      "Portfolio of Sourabh Biswas, a passionate Devops Engineer specializing in DevOps tools like Terraform (IaC), AWS, Azure, Jenkins, Gitlab, Github Actions, Docker, Kubernetes, ArgoCD, EFK, Grafana & Promethus.",
-    creator: "@jatinkumar",
-  },
   robots: {
     index: true,
     follow: true,
