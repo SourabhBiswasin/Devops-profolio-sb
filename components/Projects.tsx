@@ -17,6 +17,7 @@ export default function Projects() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   const projects = [
+    //Project 1
     {
       title: "E-Commerce Platform",
       description:
@@ -41,6 +42,7 @@ export default function Projects() {
       category: "Full Stack",
       status: "Live",
     },
+    //Project 2
     {
       title: "Task Management App",
       description:
@@ -71,6 +73,7 @@ export default function Projects() {
       category: "SaaS",
       status: "Live",
     },
+    //Project 3
     {
       title: "Weather Analytics Dashboard",
       description:
@@ -95,6 +98,7 @@ export default function Projects() {
       category: "Data Viz",
       status: "Live",
     },
+    //Project 4
     {
       title: "Social Media Platform",
       description:
@@ -140,11 +144,12 @@ export default function Projects() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white mb-6">
-            Featured Projects
+            Projects
           </h2>
           <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            A showcase of my recent work and the technologies I love working
-            with
+            A showcase of my recent work and projects demonstrating my skills
+            in DevOps, Cloud Computing, and Automation. Explore the code,
+            features, and technologies used in each project.
           </p>
         </motion.div>
 
@@ -431,45 +436,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Project Grid Preview */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20"
-        >
-          <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 text-center">
-            All Projects
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {projects.map((project, index) => (
-              <motion.div
-                key={index}
-                className={`relative group cursor-pointer rounded-xl overflow-hidden transition-all duration-300 ${
-                  index === activeProject
-                    ? "ring-2 ring-blue-500 shadow-lg"
-                    : "hover:shadow-lg"
-                }`}
-                whileHover={{ y: -5 }}
-                onClick={() => setActiveProject(index)}
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-32 object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <div className="absolute bottom-2 left-2 right-2">
-                  <h4 className="text-white font-semibold text-sm truncate">
-                    {project.title}
-                  </h4>
-                  <p className="text-white/80 text-xs">{project.category}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

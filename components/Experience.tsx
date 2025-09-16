@@ -21,11 +21,12 @@ export default function Experience() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const experiences = [
+    // Work Experience
     {
-      title: "Full Stack Developer",
-      company: "Encrobytes",
+      title: "Devops Engineer",
+      company: "Mercor Technologies Pvt Ltd",
       location: "Faridabad. Haryana, India",
-      date: "2022 - Present",
+      date: "2021 - Present",
       type: "work",
       description: [
         "Led development of 5+ major web applications using React and Node.js",
@@ -40,85 +41,41 @@ export default function Experience() {
       ],
       technologies: ["React", "Node.js", "Javascript", "Express.js", "MongoDB"],
     },
-    // {
-    //   title: "Full Stack Developer",
-    //   company: "Digital Innovations Ltd",
-    //   location: "New York, NY",
-    //   date: "2020 - 2022",
-    //   type: "work",
-    //   description: [
-    //     "Developed and maintained 10+ client projects",
-    //     "Implemented responsive designs with 98% cross-browser compatibility",
-    //     "Built RESTful APIs serving 100K+ daily requests",
-    //     "Reduced bug reports by 60% through comprehensive testing",
-    //   ],
-    //   achievements: [
-    //     "10+ client projects",
-    //     "98% browser compatibility",
-    //     "100K+ daily API requests",
-    //   ],
-    //   technologies: ["Vue.js", "Express", "PostgreSQL", "Docker", "Redis"],
-    // },
-    // {
-    //   title: "Frontend Developer",
-    //   company: "StartupXYZ",
-    //   location: "Austin, TX",
-    //   date: "2019 - 2020",
-    //   type: "work",
-    //   description: [
-    //     "Created user-friendly interfaces for mobile and web platforms",
-    //     "Collaborated with UX designers to implement pixel-perfect designs",
-    //     "Optimized applications for speed and scalability",
-    //     "Contributed to open-source projects and company blog",
-    //   ],
-    //   achievements: [
-    //     "Mobile-first approach",
-    //     "Pixel-perfect designs",
-    //     "Open-source contributor",
-    //   ],
-    //   technologies: ["React", "JavaScript", "Sass", "Webpack", "Jest"],
-    // },
+    // Certification
     {
-      title: "Bachelor of Computer Science",
-      company: "J.C. Bose University of Science and Technology, YMCA",
-      location: "Faridabad, Haryana, India",
-      date: "2021 - 2025",
+      title: "Certified DevOps Engineer",
+      company: "GeeksforGeeks",
+      location: "Noida, UP, India",
+      date: "2023",
       type: "education",
       description: [
-        "Specialized in Software Engineering and Web Technologies",
-        "Participant in Open-Source club with 20+ members",
+        "Specialized in DevOps tools and practices",
+        "Deployed Multiple Capstone projects & Microservice based applications on AWS and Azure following DevOps best practices",
       ],
       achievements: [
-        "Full Stack Proficiency",
-        "20+ club members",
-        "Published research",
+        "DevOps Proficiency",
+        "Capstone Project",
+        "Deployed realtime Projects on Cloud",
       ],
-      technologies: ["C++", "Javascript", "Database Design", "Framework"],
+      technologies: ["AWS & Azure", "Jenkins, Gitlab & Github Actions", "ArgoCD", "Helm", "Docker & Kubernetes", "Grafana & Promethus"],
     },
-    {
-      title: "MERN Stack Development Course",
-      company: "CodeHelp",
-      location: "Online",
-      date: "2023",
-      type: "certification",
+    // Education
+        {
+      title: "Bachelor of Electronics and Communication Engineering",
+      company: "J.C. Bose University of Science and Technology, YMCA",
+      location: "Faridabad, Haryana, India",
+      date: "2017 - 2021",
+      type: "education",
       description: [
-        "Achieved professional-level MERN Stack certification",
-        "Demonstrated expertise in Frontend and Backend architecture",
-        "Designed scalable and cost-effective solutions",
-        "Applied  best practices in production environments",
+        "Specialized in Electronics, Software Engineering and Web Technologies",
+        "Build various projects on Server & Networking, Embedded Systems and Web Development",
       ],
       achievements: [
-        "Professional certification",
-        "MVC architecture expert",
-        "Production deployments",
+        "MERN Stack Developer",      
+        "Bare metal server build",
+        "Published technical blogs",
       ],
-      technologies: [
-        "MongoDB",
-        "Express.js",
-        "React.js",
-        "Node.js",
-        "Javascript",
-      ],
+      technologies: ["Ubuntu", "Matlab", "Database Design", "Networking", "React & Node.js"],
     },
   ];
 
